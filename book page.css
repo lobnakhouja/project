@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+.navbar {
+    width: 100%;
+    height: 120px;
+    margin: auto;
+    background-color:  antiquewhite;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    gap: 2em;
+   
+}
+#logo {
+    width: 160px;
+    height: 127px;
+    float: left;
+}
+  
+.menu {
+    width: 80%;
+    height: 70px;
+    float: center;
+    /*padding-left: 60px;*/
+}
+.items {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 70px;
+    font-size: 20px;
+    /*font-family: Arial;*/
+    font-weight: bold;
+    gap: 1.2em;
+    
+}
+.icons{
+    float: right;
+    padding-right: 0px;
+}
+.cart {
+    /*padding-left: 25px;*/
+}
+.like {
+    /*padding-left: 25px;*/
+}
+.aa {
+    color: #a79277;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+    padding-left: 25px;
+    
+}
+.search {
+    width: 330px;
+    float: left;
+    /*padding-right: 145px;*/
+    padding-left: 149px;
+    display: inline;
+}
+.srch{
+    font-family: "Times New Roman";
+    width: 200px;
+    height: 40px;
+    background: white;
+    border: 1px solid #cdbba7;
+    color: black;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+        
+        width: 100px;
+        height: 40px;
+        background: #a79277;
+        color: white;
+        border: 2px solid #cdbba7;
+        font-size: 15px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+        display: inline;
+        text-decoration: none;
+
+}
+
+
+main{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
+    background-color: #DAEAF1;
+    display: flex;
+    flex-wrap: wrap;
+    float: top;
+    display: grid;
+    grid: auto;
+    width: 75%;
+    position: relative;
+
+    
+}
+
+.book{
+    width: 405px;
+    height: 550px;
+    padding: 0px;
+    border-radius: 5px;
+
+    
+}
+
+.imdesc{
+    display: inline-grid;
+    grid-template-columns: 40% fr;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    float: top;
+
+  
+  
+}
+
+.descrip{
+    grid-column: 1/3;
+    grid-row: 7;
+   
+
+}
+
+#quote{
+    text-align: center;
+    color: #A6B37D;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#pdescrip{
+    display: grid;
+    /*grid-column: 2/3;*/
+    float: right;
+    /*padding-left: 600px;*/
+    font-size: 1.1em;
+}
+
+
+.ratebox{
+    border: solid;
+    border-radius: 25px;
+    border-color: white;
+    width: 400px;
+    height: 140px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    box-shadow: 0px 5px 10px black;
+    grid-column: 2/3;
+    justify-self: center;
+}
+
+#ratetext{
+    text-align: center;
+    color: #cdcdcd;
+}
+
+.star{
+   
+    font-size: 35px;
+    color: #cdcdcd;
+}
+.fa-star:hover{
+    color: gold;
+}
+
+.favbox{
+    border: solid;
+    border-radius: 25px;
+    border-color: white;
+    background-color: white;
+    box-shadow: 0px 5px 10px black;
+    width: 70px;
+    height: 70px;
+    grid-row: 6/7;
+    grid-column: 2/3;
+    display: grid;
+    justify-self: center;
+}
+
+#heart{
+    justify-self: center;
+    align-self: center;
+    
+}
+
+
+.pricebox{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border: solid;
+    border-color: DodgerBlue ;
+    color: #cdcdcd;
+    width: 0.5em;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px black;
+    height: 170px;
+    width: 200px;
+    display: grid;
+    background-color: white;
+    justify-self: center;
+}
+
+.pricebtn{
+    background-color: DodgerBlue;
+    border: solid;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 25px;
+    /*box-shadow: 0px 5px 10px black;*/
+    height: 60px;
+    width: 200px;
+    position: relative;
+    align-self: end;
+    padding: 0px;
+ 
+}
+
+.pricebtn i{
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+}
+
+.downloadbox{
+    grid-row: 5/6;
+    grid-column: 2/3;
+    justify-self: center;
+    
+}
+
+.downloadbtn{
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px black;
+    height: 80px;
+    width: 200px;
+
+ 
+}
+.downloadbtn:hover, .pricebtn:hover{
+    background-color: RoyalBlue;
+}
+
+aside{
+    width: 20%;
+    float: right;
+    height: 100%;
+    display: grid;
+    padding-right: 0px;
+    background-color: #C6DCE4;
+}
+
+.service{
+    display: grid;
+    justify-self: center;
+    align-items: center;
+    gap: 4em;
+    padding-top: 30px;
+}
+
+.serv{
+    height: 50px;
+    width: 50px;
+    border: solid;
+    border-color: black;
+    border-radius: 100%;
+}
